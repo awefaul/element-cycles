@@ -1,0 +1,512 @@
+@charset "utf-8";
+/* CSS Document */
+
+ body {
+	background: rgb(170,170,170);
+	margin: 0;
+	padding: 0;
+ }
+ #bladsy {
+	width: 1355px;
+	background: rgb(240,240,240);
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	overflow: hidden;
+	font-size: small;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #444;
+ }
+ #opskrif{
+	background: rgb(220,220,220);
+	width: 250px;
+	text-align: center;
+	border-radius: 5px;
+	height: 40px;
+	display: block;
+	margin-top: 10px;
+	margin-left: 5px;
+	padding-top: 5px;
+ } 
+ 
+ #opskrif:hover {
+	cursor: pointer;
+	background-color: rgb(170,170,170);	 
+ }
+ 
+ h2 {
+	display: inline;
+	font-weight: normal;
+	font-size: 200%;
+ } 
+ 
+ #linkerKant {
+	height: 710px;
+	width: 255px;
+	float: left;
+	margin-left: 5px;
+	border-radius: 5px;
+	position: relative;
+ }
+ #linkerKant nav {
+	margin-top: 10px;
+	}
+	div ul {
+		padding:0;
+		list-style: none;
+	}
+	#linkerKant nav ul li {
+		background: rgb(220,220,220);
+		height: 25px;
+		width: 80px;
+		list-style: none;
+		float: left;
+		margin-left: 5px;
+		padding-top: 5px;
+		text-align: center;
+		border-top-left-radius: 6px;
+		border-top-right-radius: 6px;		
+	}
+/*------------------------- regterkant ------------------------ 	*/
+	#regterKant {
+	height: 710px;
+	float: left;
+	width: 350px;
+	position: relative;
+	}
+ #tabelle {
+	color: #666;
+	float: left;
+ }	 
+	#tabelle nav ul li {
+		background: rgb(220,220,220);
+		height: 25px;
+		width: 100px;
+		list-style: none;
+		float: left;
+		margin-right: 5px;
+		padding-top: 5px;		
+		text-align: center;
+		border-top-left-radius: 6px;
+		border-top-right-radius: 6px;		
+	} 
+	
+	#ekstras {
+		color: #666;
+		float: left;
+		position: absolute;
+		top: 215px;
+	 }	
+	 
+	#ekstras nav ul li {
+		background: rgb(220,220,220);
+		height: 25px;
+		width: 100px;
+		list-style: none;
+		float: left;
+		margin-right: 5px;
+		padding-top: 5px;		
+		text-align: center;
+		border-top-left-radius: 6px;
+		border-top-right-radius: 6px;		
+	}
+		  
+	#tabelTab1 #tabelTab2 {
+		background-color: rgb(240,240,240);
+		display: block;
+	}
+		
+	#ekstra1 #ekstra2 {
+		background-color: rgb(240,240,240);
+		display: block;
+	}	
+		
+	#tabelTab1:hover {
+		cursor:pointer;
+	}
+	#tabelTab2:hover {
+		cursor:pointer;
+	}
+	
+#tab1 #tab2 #tab3 {
+	background-color: rgb(240,240,240);
+	display: block;
+}
+#tab1:hover{
+	cursor:pointer;
+}
+#tab2:hover{
+	cursor:pointer;
+}
+#tab3:hover{
+	cursor:pointer;
+}
+
+#kant nav ul li:hover {
+	cursor:pointer;
+}
+
+#menu1, #menu2, #menu3 {
+	background: rgb(220,220,220);
+	display: block;
+	float: left;
+	width: 250px;
+	margin-left: 5px;
+	top: 98px;
+	position: absolute;
+	padding-top: 5px;
+	padding-bottom: 5px;
+} 
+
+div #menu1 {
+	z-index: 3;
+}
+div #menu2 {
+	z-index: 2;
+}
+div #menu3 {
+	z-index: 1;
+}
+
+ .knoppie {
+	width: 160px;
+	background: rgb(240,240,240);
+	line-height: 160%;
+	text-align: center;
+	border-radius: 5px;
+	display: block;
+	margin: 8px auto;
+}
+.knoppie:hover {
+	cursor: pointer;
+	background:rgb(220,220,220);
+} 
+
+#houer {
+	height: 710px;
+	width: 710px;
+	background:rgb(220,220,220);
+	float: left;
+	margin: 10px;
+	border-radius: 10px;
+	position: relative;
+}
+#links {
+	background: url(../images/ACW240.png) no-repeat;
+	height: 70px;
+	width: 70px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+#links:hover {
+	background: url(../images/ACW200.png);
+	cursor:pointer;
+}
+#regs {
+	background: url(../images/CW240.png) no-repeat;
+	height: 70px;
+	width: 70px;
+	position: absolute;
+	left: 630px;
+	top: 10px;
+}
+
+#regs:hover {
+	background: url(../images/CW200.png);
+	cursor:pointer;
+}
+
+#resetKnoppie {
+	background: rgb(220,220,220);
+	text-align: center;
+	height: 30px;
+	width: 255px;
+	position: absolute;
+	top: 685px;
+	border-radius: 5px;
+	display: block;
+}
+#resetKnoppie p {
+	line-height: normal;
+	vertical-align: middle;
+	display: inline;
+	font-size: 140%;
+	margin-bottom:15px;
+}
+
+#resetKnoppie:hover {
+	cursor: pointer;
+	background-color: rgb(170,170,170);
+}
+
+#sleutel {
+	background: rgb(220,220,220);
+	height: 334px;
+	width: 340px;
+	margin-top: 425px;
+	border-radius: 6px;
+}
+
+#sleutelLinks img {
+	padding: 5px;
+}
+#sleutel img {
+	padding: 5px;
+}
+
+ div#overlap.ui-slider {
+	width: 185px;
+	height: 8px;
+	background: #bbb;
+	margin-left: 30px;
+	margin-top: 10px;
+ }
+
+#skuif {
+	position: absolute;
+	top: 725px;
+	background: rgb(220,220,220);
+	width: 255px;
+	border-radius: 10px;	
+}
+
+#fans {
+	margin-top: 10px;
+	margin-left: 15px;
+}
+ #canvas {
+	padding: 5px;
+ }
+ footer {
+	clear: both;
+ }
+ 
+ #catKey table{
+	background: rgb(220,220,220);
+	width: 710px;
+	clear: both;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	margin-left: 275px;
+	text-align: center;
+ }
+ 
+#catKey table tr td{
+	border-style: none;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-collapse: collapse;
+}
+/* .knoppie .nobleGasses {
+	width: 160px;
+	background: rgb(240,240,240);
+	line-height: 160%;
+	text-align: center;
+	border-radius: 5px;
+	display: block;
+	margin: 8px auto;
+}*/
+.otherNonMetals {background: rgb(168,240,168);}
+.halogens {background: rgb(240,240,150);}
+.nobleGasses {background: rgb(200,250,250);} 
+.metalloids {background: rgb(210,210,160);}
+.alkaliMetals {background: rgb(245,150,150);}
+.alkalinEarthMetals {background: rgb(245,220,170);}
+.lanthanoids {background: rgb(245,190,245);}
+.actinoids {background: rgb(245,160,200);}
+.transitionMetals {background: rgb(240,190,190);}
+.postTransitionMetals {background: rgb(195,195,245);}
+.metals {
+	background: rgb(220,220,220);
+	text-align: center;
+}
+
+ div#roteer.ui-slider {
+	width: 900px;
+	height: 8px;
+	background: #bbb;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+ }
+
+/* -------------------table css --------------------------*/
+ #tabelNr {
+	background-color:rgb(220,220,220);
+	float: left;
+	position: absolute;
+	top: 42px;
+ }
+ #tabelNr table {
+	margin: 5px;
+	font-size: 65%;	
+ }
+  #tabelsymbol {
+	background-color:rgb(220,220,220);	
+	float: left;
+	position: absolute;
+	top: 42px;	
+ }
+  
+  #tabelsymbol table {
+	margin: 5px;
+	font-size: 65%;
+	font-weight: bold;
+	text-align:center;
+	height: 160px;
+ }
+
+ #tabelNr tr {
+	text-align: center;	 
+ }
+ 
+ .rynr {
+	 cursor:pointer;
+ }
+ 
+ #tabelNr td {
+	padding: 2px 1px;
+ }
+ .leeg {
+	cursor:default;
+	background-color: rgb(220,220,220);
+ }
+ sup {
+	font-size: 60%;
+ }
+/* ------------ 1,6,7,8,15,16,34 ----------------------------*/
+ .nmetal {
+  background: rgb(168,240,168);
+} 
+/* ------------ 9,17,35,53,85,117 ----------------------------*/
+ .halo {
+  background: rgb(240,240,150);
+} 
+/* ------------ 2,10,18,36,54,86,118 ----------------------------*/
+ .nobel {
+  background: rgb(200,250,250);
+} 
+/* ------------ 5,14,32,33,51,52,84 ----------------------------*/
+ .metta {
+  background: rgb(210,210,160);
+} 
+/* ------------ 3,11,19,37,55,87 ----------------------------*/
+ .almet {
+  background: rgb(245,150,150);
+} 
+/* ------------ 4,12,20,38,56,88 ----------------------------*/
+ .eatmet {
+  background: rgb(245,220,170);
+} 
+/* ------------ 57-71 ----------------------------*/
+ .lant {
+  background: rgb(245,190,245);
+} 
+/* ------------ 89-103 ----------------------------*/
+ .achti {
+  background: rgb(245,160,200);
+}
+/* ------------ 21-30,39-48,72-80,104-112 ----------------------------*/
+ .trans {
+  background: rgb(240,190,190);
+}
+/* ------------ 13,31,49,50,81,82,83,113,114 ----------------------------*/
+ .post {
+  background: rgb(195,195,245);
+}
+/* --------------- mouseover -------------------------------------------- */  
+  .ligter {
+		background-color:rgb(240,240,240);
+	  color: rgb(0,0,0);
+ }
+/* --------------- mouseover -------------------------------------------- */  
+  .ligterClick {
+		background-color:rgb(240,240,240);
+	  color: rgb(0,0,0);
+ } 
+/* -------------------------- end table ----------------------------------*/ 
+ #detail {
+	width: 340px;
+	background: rgb(200,200,200);
+	border-radius: 5px;
+	position: absolute;
+	top: 255px;
+	padding-bottom: 10px;
+ }
+#detail #elementDetail {
+	text-align: left;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+#detail #elementDetail tr {
+	border-radius: 5px;
+	display: block;
+}
+
+ #pictures {
+	width: 320px;
+	height: 320px;
+	background: rgb(220,220,220);
+	border-radius: 5px;
+	position: absolute;
+	top: 255px;
+	padding-top: 15px;
+	padding-left: 15px;
+ }
+	#ekstra1:hover {
+		cursor:pointer;
+	}
+	#ekstra2:hover {
+		cursor:pointer;
+	} 
+ .col1 {
+	text-align: left;
+	width: 155px;
+  }
+ .col2 {
+	width: 80px;
+	text-align: right;
+	margin-left: -5px;
+}
+/*---------------------------------------- slider --------------------------*/
+.slidecontainer {
+    width: 225px;
+	padding-left: 5px;
+	margin-top: 5px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 240px;
+    height: 10px;
+    background: rgb(180,180,180);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 20px;
+    background: rgb(150,150,150);
+    cursor: pointer;
+	border-radius: 5px;
+}
+
+.slider::-moz-range-thumb {
+    width: 10px;
+    height: 10px;
+    background: #666;
+    cursor: pointer;
+}
