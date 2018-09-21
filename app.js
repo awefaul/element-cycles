@@ -29,7 +29,7 @@ http.createServer(function(req, res){
 	 imgStream.pipe(res);	 
  }else{
 	 res.writeHead(404,{"Content-Type": "text/plain"});
-	 res.end("404 kry nie file");
+	 res.end("404 kry nie file in app");
  }	
 	
 }).listen(8080);
